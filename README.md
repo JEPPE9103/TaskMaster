@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+TaskMaster ✅
+The ultimate To-Do List app to keep track of your tasks!
 
-## Getting Started
+📌 About the Project
+TaskMaster is a modern and responsive To-Do List application built with Next.js and Firebase. Users can:
 
-First, run the development server:
+Register & log in using Firebase Authentication.
+Create, save, and manage tasks in real-time with Firestore Database.
+Mark tasks as completed and delete them when finished.
+Persist tasks so they remain even after logging out.
+🚀 Technologies Used
+TaskMaster is built with:
 
-```bash
+Next.js – A React framework for server-side rendering and performance optimization.
+Firebase – Manages authentication & real-time database.
+Firestore – Stores users' To-Do Lists.
+CSS & Tailwind – Ensures a clean and responsive design.
+🔧 Installation & Setup
+1️⃣ Clone the repository
+sh
+Kopiera
+Redigera
+git clone https://github.com/JEPPE9103/TaskMaster.git
+cd TaskMaster
+2️⃣ Install dependencies
+sh
+Kopiera
+Redigera
+npm install
+3️⃣ Add Firebase configuration
+Create a .env.local file in the project's root and add:
+
+sh
+Kopiera
+Redigera
+NEXT_PUBLIC_FIREBASE_API_KEY=your-api-key
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your-auth-domain
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=your-project-id
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your-storage-bucket
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your-messaging-id
+NEXT_PUBLIC_FIREBASE_APP_ID=your-app-id
+(Find these values in your FirebaseConfig.js file.)
+
+4️⃣ Start the development server
+sh
+Kopiera
+Redigera
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open http://localhost:3000 in your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🌍 Deployment
+TaskMaster can be deployed easily using Vercel:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Create an account on Vercel.
+Link your GitHub repository.
+Add Firebase environment variables under Project Settings → Environment Variables.
+Deploy and start using the app live! 🚀
