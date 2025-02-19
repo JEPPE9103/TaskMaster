@@ -1,0 +1,142 @@
+/* Global styling */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f7fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Wrapper för alla sidor (Login, Register, To-Do List) */
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+/* Justera Terms & Conditions-container */
+.terms-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px; /* Lägger mellanrum mellan checkbox och text */
+  margin-top: 10px;
+}
+
+/* Fixar checkboxens position */
+.terms-container input {
+  width: auto;
+  margin: 0;
+}
+
+
+/* Centrerad titel */
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Input-fält och knapp */
+.input-area, form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* Knappstil */
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Blå knappar */
+.primary-button {
+  background: #007bff;
+  color: white;
+}
+
+.primary-button:hover {
+  background: #0056b3;
+}
+
+/* Grå knappar */
+.secondary-button {
+  background: #6c757d;
+  color: white;
+}
+
+.secondary-button:hover {
+  background: #545b62;
+}
+
+/* Röd Log Out-knapp */
+.logout-button {
+  background: #dc3545;
+  color: white;
+  margin-top: 10px;
+}
+
+.logout-button:hover {
+  background: #c82333;
+}
+/* Back to Home-länk */
+.back-to-home {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.home-link {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 14px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.home-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+
+/* Lista */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #f8f9fa;
+  margin-top: 5px;
+  border-radius: 6px;
+}
+
+/* När en task är klar */
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}

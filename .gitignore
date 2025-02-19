@@ -1,41 +1,47 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
+# Node.js dependencies
 /node_modules
 /.pnp
 .pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
 
-# testing
-/coverage
-
-# next.js
+# Next.js build outputs
 /.next/
 /out/
+/build/
 
-# production
-/build
+# Vercel deployment
+.vercel
 
-# misc
-.DS_Store
-*.pem
+# Environment variables (keep secrets out of Git)
+/.env
+.env.local
+.env.development
+.env.production
+.env.test
 
-# debug
+# Logs & debugging
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# Miscellaneous system files
+.DS_Store
+*.pem
 
-# vercel
-.vercel
-
-# typescript
+# TypeScript build info
 *.tsbuildinfo
 next-env.d.ts
+
+# Package manager lock files (if using multiple managers, keep only one)
+yarn.lock
+pnpm-lock.yaml
+
+# Coverage reports
+/coverage
+
+# ESLint cache
+.eslintcache
+
+# Tailwind and PostCSS cache
+postcss.config.mjs
+tailwind.config.ts
