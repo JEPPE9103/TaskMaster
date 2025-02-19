@@ -53,10 +53,10 @@ NEXT_PUBLIC_FIREBASE_APP_ID=your-app-id
 ### 4️⃣ Start the development server
 `sh
 npm run dev
-``
+`
 Then open http://localhost:3000 in your browser.
 
-```
+``
 ### 🌍 Deployment
 TaskMaster can be deployed easily using Vercel:
 
