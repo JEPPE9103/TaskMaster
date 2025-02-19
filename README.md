@@ -32,3 +32,33 @@ cd TaskMaster
 ### 2️⃣ Install dependencies
 ```sh
 npm install
+```
+### 3️⃣ Add Firebase configuration  
+Create a **`.env.local`** file in the project's root and add:
+
+```sh
+NEXT_PUBLIC_FIREBASE_API_KEY=your-api-key
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your-auth-domain
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=your-project-id
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your-storage-bucket
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your-messaging-id
+NEXT_PUBLIC_FIREBASE_APP_ID=your-app-id
+(Find these values in your FirebaseConfig.js file.)
+```
+### 4️⃣ Start the development server  
+Run the following command:
+
+```sh
+npm run dev
+```
+Then open http://localhost:3000 in your browser.
+
+### 🌍 Deployment  
+TaskMaster can be deployed easily using **Vercel**:
+
+1. **Create an account** on [Vercel](https://vercel.com/)  
+2. **Link your GitHub repository**  
+3. **Add Firebase environment variables** under **Project Settings → Environment Variables**  
+4. **Deploy** and start using the app live! 🚀  
+
+
