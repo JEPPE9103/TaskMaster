@@ -1,36 +1,44 @@
-TaskMaster ✅
-The ultimate To-Do List app to keep track of your tasks!
+# TaskMaster ✅  
+**The ultimate To-Do List app to keep track of your tasks!**
 
-📌 About the Project
-TaskMaster is a modern and responsive To-Do List application built with Next.js and Firebase. Users can:
+---
 
-Register & log in using Firebase Authentication.
-Create, save, and manage tasks in real-time with Firestore Database.
-Mark tasks as completed and delete them when finished.
-Persist tasks so they remain even after logging out.
-🚀 Technologies Used
-TaskMaster is built with:
+## 📌 About the Project
+TaskMaster is a modern and responsive To-Do List application built with **Next.js** and **Firebase**.
 
-Next.js – A React framework for server-side rendering and performance optimization.
-Firebase – Manages authentication & real-time database.
-Firestore – Stores users' To-Do Lists.
-CSS & Tailwind – Ensures a clean and responsive design.
-🔧 Installation & Setup
-1️⃣ Clone the repository
-sh
-Kopiera
-Redigera
+### 🛠 Features:
+✔ Register & log in using **Firebase Authentication**  
+✔ Create, save, and manage tasks in real-time with **Firestore Database**  
+✔ Mark tasks as completed and delete them when finished  
+✔ Persist tasks so they remain even after logging out  
+
+---
+
+## 🚀 Technologies Used
+- **Next.js** – React framework for SSR & performance optimization  
+- **Firebase** – Manages authentication & real-time database  
+- **Firestore** – Stores users' To-Do Lists  
+- **CSS & Tailwind** – Ensures a clean and responsive design  
+
+---
+
+## 🔧 Installation & Setup
+
+### 1️⃣ Clone the repository
+``sh
 git clone https://github.com/JEPPE9103/TaskMaster.git
 cd TaskMaster
-2️⃣ Install dependencies
+
+``
+### 2️⃣ Install dependencies
 sh
-Kopiera
-Redigera
 npm install
-3️⃣ Add Firebase configuration
+
+``
+### 3️⃣ Add Firebase configuration
 Create a .env.local file in the project's root and add:
 
-sh
+``sh
 Kopiera
 Redigera
 NEXT_PUBLIC_FIREBASE_API_KEY=your-api-key
@@ -41,17 +49,17 @@ NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your-messaging-id
 NEXT_PUBLIC_FIREBASE_APP_ID=your-app-id
 (Find these values in your FirebaseConfig.js file.)
 
-4️⃣ Start the development server
-sh
-Kopiera
-Redigera
+``
+### 4️⃣ Start the development server
+``sh
 npm run dev
-Open http://localhost:3000 in your browser.
-
-🌍 Deployment
+Then open http://localhost:3000 in your browser.
+```
+```
+### 🌍 Deployment
 TaskMaster can be deployed easily using Vercel:
 
-Create an account on Vercel.
-Link your GitHub repository.
-Add Firebase environment variables under Project Settings → Environment Variables.
-Deploy and start using the app live! 🚀
+- Create an account on Vercel
+- Link your GitHub repository
+- Add Firebase environment variables under Project Settings → Environment Variables
+- Deploy and start using the app live! 🚀
