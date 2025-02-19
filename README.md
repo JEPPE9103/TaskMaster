@@ -34,7 +34,11 @@ cd TaskMaster
 npm install
 ```
 ### 3️⃣ Add Firebase configuration  
-Create a **`.env.local`** file in the project's root and add:
+
+Firebase Setup
+1️⃣ Go to Firebase Console and create a new project.
+2️⃣ In Project Settings → General, get your Firebase API credentials.
+3️⃣ Create a .env.local file in the project root and add:
 
 ```sh
 NEXT_PUBLIC_FIREBASE_API_KEY=your-api-key
