@@ -25,42 +25,10 @@ TaskMaster is a modern and responsive To-Do List application built with **Next.j
 ## 🔧 Installation & Setup
 
 ### 1️⃣ Clone the repository
-``sh
+```sh
 git clone https://github.com/JEPPE9103/TaskMaster.git
 cd TaskMaster
-
-``
+```
 ### 2️⃣ Install dependencies
-sh
+```sh
 npm install
-
-``
-### 3️⃣ Add Firebase configuration
-Create a .env.local file in the project's root and add:
-
-``sh
-Kopiera
-Redigera
-NEXT_PUBLIC_FIREBASE_API_KEY=your-api-key
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your-auth-domain
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=your-project-id
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your-storage-bucket
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your-messaging-id
-NEXT_PUBLIC_FIREBASE_APP_ID=your-app-id
-(Find these values in your FirebaseConfig.js file.)
-
-``
-### 4️⃣ Start the development server
-`sh
-npm run dev
-`
-Then open http://localhost:3000 in your browser.
-
-``
-### 🌍 Deployment
-TaskMaster can be deployed easily using Vercel:
-
-- Create an account on Vercel
-- Link your GitHub repository
-- Add Firebase environment variables under Project Settings → Environment Variables
-- Deploy and start using the app live! 🚀
