@@ -43,8 +43,10 @@ NEXT_PUBLIC_FIREBASE_PROJECT_ID=your-project-id
 NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your-storage-bucket
 NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your-messaging-id
 NEXT_PUBLIC_FIREBASE_APP_ID=your-app-id
-(Find these values in your FirebaseConfig.js file.)
 ```
+
+(Find these values in your FirebaseConfig.js file.)
+
 ### 4️⃣ Start the development server  
 Run the following command:
 
@@ -53,7 +55,7 @@ npm run dev
 ```
 Then open http://localhost:3000 in your browser.
 
-### 🌍 Deployment  
+## 🌍 Deployment  
 TaskMaster can be deployed easily using **Vercel**:
 
 1. **Create an account** on [Vercel](https://vercel.com/)  
